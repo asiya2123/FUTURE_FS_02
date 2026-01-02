@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bloom & Petal | Online Flower Shop</title>
+    
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<link rel="stylesheet" href="../task2/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#"><i class="bi bi-flower1"></i> Bloom & Petal</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link active" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#shop">Shop</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item ms-lg-3">
+                        <button class="btn btn-outline-dark position-relative" data-bs-toggle="modal" data-bs-target="#cartModal">
+                            <i class="bi bi-cart3"></i> Cart
+                            <span class="position-absolute top-0 start-100 translate-middle badge rounded-pill bg-danger" id="cart-count">0</span>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section">
+        <div class="container">
+            <h1 class="display-3 fw-bold">Fresh Flowers, Delivered</h1>
+            <p class="lead mb-4">Brighten someone's day with our beautiful, hand-picked arrangements.</p>
+            <a href="#shop" class="btn btn-custom btn-lg px-5">Shop Now</a>
+        </div>
+    </header>
+<!--ransmision-->
+ <div class="flowersanimation">
+        <div class="group">
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/rose1.png"
+              alt="c"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/lavender1.png"
+              alt="java"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/waterlilly1.png"
+              alt="html"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/gift1.jpg"
+              alt="c"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/rose3.png"
+              alt="css"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/lotus2.png"
+              alt="js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/waterlilly.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/cheryyblossum4.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/tulip2.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/1.jpg"
+              alt="c"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/2.jpg"
+              alt="c"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/lotus5.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/dec5.jpg"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/rose5.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/lavender5.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/rose2.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/gift3.jpg"
+              alt="c"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/lotus3.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/lotus1.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/lavender3.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/peony.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/stargazer lily.jpg"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/nastruntium.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/lts.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/dahila.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/marigold.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/dec1.jpg"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/plimeria.jpg"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/million bells.jpg"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+          <div class="icon">
+            <img
+              id="icon"
+              src="../task2/images/daisy.png"
+              alt="node.js"
+              width="300px"
+              height="220px"
+            />
+          </div>
+        </div>
+      </div>
+    <!-- Shop Section -->
+    <main class="container my-5" id="shop">
+        <div class="row mb-4 align-items-center">
+            <div class="col-md-6">
+                <h2 class="fw-bold">Our Collection</h2>
+            </div>
+            <div class="col-md-6">
+                <input type="text" id="searchInput" class="form-control" placeholder="Search flowers (e.g., Rose, Tulip)...">
+            </div>
+        </div>
+
+        <!-- Loading Spinner -->
+        <div id="loader">
+            <div class="spinner-border text-danger" role="status">
+                <span class="visually-hidden">Loading...</span>
+            </div>
+        </div>
+
+        <!-- Flower Grid -->
+        <div class="row" id="flower-container">
+            <!-- Flowers injected here via JS -->
+        </div>
+    </main>
+    <!-- Gallery Section -->
+    <section class="container my-5" id="gallery">
+        <div class="text-center mb-5">
+            <h2 class="display-5 fw-bold">Floral Gallery</h2>
+            <p class="lead text-muted">Explore our curated collection of beautiful blooms</p>
+        </div>
+        
+        <div class="gallery-grid" id="gallery-container"></div>
+        
+        <div class="text-center mt-5">
+            <button id="loadMoreGalleryBtn" class="btn btn-outline-danger btn-lg px-5">
+                Load More Flowers
+            </button>
+        </div>
+    </section>
+   
+    <!-- Footer -->
+    <footer>
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-md-4 mb-3">
+                    <h5>About Us</h5>
+                    <p>We bring nature's beauty to your doorstep with the freshest blooms.</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Links</h5>
+                    <p><a href="#" class="text-white text-decoration-none">Home</a></p>
+                    <p><a href="#shop" class="text-white text-decoration-none">Shop</a></p>
+                    <p><a href="#gallery" class="text-white text-decoration-none">Gallery</a></p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <h5>Contact</h5>
+                    <p>Email: hello@bloompetal.com</p>
+                    <p>Phone: +1 234 567 890</p>
+                </div>
+            </div>
+            <div class="pt-3 border-top border-secondary">
+                <p>&copy; 2023 Bloom & Petal. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Cart Modal -->
+    <div class="modal fade" id="cartModal" tabindex="-1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Your Cart</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body" id="cart-items">
+                    <p class="text-center">Your cart is empty.</p>
+                </div>
+                <div class="modal-footer">
+                    <h5>Total: $<span id="cart-total">0.00</span></h5>
+                    <button type="button" class="btn btn-primary" onclick="alert('Checkout functionality coming soon!')">Checkout</button>
+                </div>
+            </div>
+        </div>
+    </div>
+        <!-- Lightbox Modal -->
+    <div id="lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <img class="lightbox-content" id="lightbox-img">
+    </div>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="../task2/script.js">
+
+               
+    </script>
+</body>
+</html>
