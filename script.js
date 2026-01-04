@@ -21,128 +21,127 @@ const fallbackFlowers = [
     id: 1,
     name: "Red Rose",
     price: 12.99,
-    image:
-      "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/5be75d71-74f1-5c26-ba2e-511376b1d1c6/62ed12ac-27c5-504b-8fa4-95f41e163466.jpg",
+    image: "./images/rose1.png",
   },
   {
     id: 2,
     name: "Sunflower",
     price: 8.5,
-    image:
-      "https://images.unsplash.com/photo-1470509037663-253afd7f0f51?auto=format&fit=crop&w=400&q=80",
+    image: "./images/marigold.png",
   },
   {
     id: 3,
     name: "Tulip",
     price: 10.0,
-    image:
-      "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=400&q=80",
+    image: "./images/tulip2.png",
   },
   {
     id: 4,
     name: "Daisy",
     price: 7.25,
-    image:
-      "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=400&q=80",
+    image: "./images/daisy.png",
   },
   {
     id: 5,
     name: "Purple Orchid",
     price: 18.0,
-    image:
-      "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/fea43559-97d3-5e0a-b585-33372673a20c/d25c9c1b-753f-5541-9d5d-91be4b664bc4.jpg",
+    image: "./images/lotus1.png",
   },
   {
     id: 6,
     name: "Pink Peony",
     price: 15.5,
-    image:
-      "https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=400&q=80",
+    image: "./images/peony.png",
   },
   {
     id: 7,
     name: "Lavender",
     price: 9.0,
-    image:
-      "https://images.unsplash.com/photo-1499002238440-d264edd596ec?auto=format&fit=crop&w=400&q=80",
+    image: "./images/lavender1.png",
   },
   {
     id: 8,
     name: "Red Dahlia",
     price: 11.0,
-    image:
-      "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/e9151948-f8af-5c7a-8c6a-31496c242aa3/b18ae227-4f64-5180-bae0-a231260f50d9.jpg",
+    image: "./images/dahila.png",
   },
   {
     id: 9,
     name: "Blue Hydrangea",
     price: 14.0,
-    image:
-      "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/894ff7c9-3788-52b4-9f16-e2203b1bf1a1/210b14a6-ade7-5174-b1a2-a5c6c63f4860.jpg",
+    image: "./images/waterlilly.png",
   },
   {
     id: 10,
     name: "Yellow Marigold",
     price: 6.5,
-    image:
-      "https://st.perplexity.ai/estatic/0b226c450798410ac541646c86ec31afd840e5beab817a5d84fa821e7db61981ec84c3b4a3f072a7a2e1899c9fb06c6e69067aca127c7e6c44907091ef9805e8da70180bfbb6f8afc61cf824557c8ee59ade8b7cb573cc9781ac12e295d0bd5f",
+    image: "./images/marigold.png",
   },
   {
     id: 11,
     name: "White Lily",
     price: 16.0,
-    image:
-      "https://bloomsbythebox.sirv.com/img/product/xlarge/00823A__Lily_White_3_5_Blooms_Flower.jpg?q=100&scale.option=fill&w=400&h=0",
+    image: "./images/stargazer lily.jpg",
   },
   {
     id: 12,
     name: "Cherry Blossom",
     price: 19.0,
-    image:
-      "https://images.unsplash.com/photo-1522383225653-ed111181a951?auto=format&fit=crop&w=400&q=80",
+    image: "./images/cheryyblossum4.png",
   },
   {
     id: 13,
     name: "Orange Jasmine",
     price: 12.0,
-    image:
-      "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/9feb5ae0-308a-53d0-892f-da0a0e9ab89a/01a84265-e09c-5682-92ce-681c89a1afe2.jpg",
+    image: "./images/nastruntium.png",
   },
   {
     id: 14,
     name: "Red Hibiscus",
     price: 13.5,
-    image:
-      "https://d2u1z1lopyfwlx.cloudfront.net/thumbnails/7ce8974c-dffa-507a-a7ed-133dc39f7eb7/123cf906-b42d-502b-af18-471bb8b92d99.jpg",
+    image: "./images/plimeria.jpg",
   },
   {
     id: 15,
     name: "Wildflower Mix",
     price: 22.0,
-    image:
-      "https://images.unsplash.com/photo-1487530811176-3780de880c2d?auto=format&fit=crop&w=400&q=80",
+    image: "./images/1.jpg",
   },
 ];
 
 
 // --- 3. GALLERY IMAGE LIST (REAL FLOWERS) ---
 const realFlowerGallery = [
-  "https://images.unsplash.com/photo-1490750967868-58cb75069ed6?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1469334031218-e382a71b716b?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1470509037663-253afd7f0f51?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1520763185298-1b434c919102?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1566873535350-a3f5d4a804b7?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1527061011665-3652c757a4d4?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1599598425947-d3528b0d0f23?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1559593298-48651bb18e0c?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1597055181300-e3633a917585?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1610397648930-477b8c7f0947?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1522383225653-ed111181a951?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1509114397022-ed747cca3f65?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1574603342590-697b131a4f66?auto=format&fit=crop&w=600&q=80",
-  "https://images.unsplash.com/photo-1606041008023-472dfb5e530f?auto=format&fit=crop&w=600&q=80",
+  "./images/rose1.png",
+  "./images/lavender1.png",
+  "./images/waterlilly1.png",
+  "./images/gift1.jpg",
+  "./images/rose3.png",
+  "./images/lotus2.png",
+  "./images/waterlilly.png",
+  "./images/cheryyblossum4.png",
+  "./images/tulip2.png",
+  "./images/1.jpg",
+  "./images/2.jpg",
+  "./images/lotus5.png",
+  "./images/dec5.jpg",
+  "./images/rose5.png",
+  "./images/lavender5.png",
+  "./images/rose2.png",
+  "./images/gift3.jpg",
+  "./images/lotus3.png",
+  "./images/lotus1.png",
+  "./images/lavender3.png",
+  "./images/peony.png",
+  "./images/stargazer lily.jpg",
+  "./images/nastruntium.png",
+  "./images/lts.png",
+  "./images/dahila.png",
+  "./images/marigold.png",
+  "./images/dec1.jpg",
+  "./images/plimeria.jpg",
+  "./images/million bells.jpg",
+  "./images/daisy.png",
 ];
 /*
 async function fetchFlowers() {
